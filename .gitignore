@@ -1,0 +1,15 @@
+node_modules/
+.svelte-kit/
+/build/
+/dist/
+vite.config.ts.timestamp-*
+.pnpm-store/
+
+# CodingBooth runtime. Kept here, not in .booth/.gitignore, which the booth tooling rewrites.
+.booth/startups/
+.booth/cache/
+.booth/.tmp/
+
+.env
+.env.*
+.DS_Store

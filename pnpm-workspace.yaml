@@ -1,0 +1,7 @@
+packages:
+  - .
+
+# esbuild ships a postinstall script. Newer pnpm refuses to install at all while a
+# dependency's build script is unapproved (ERR_PNPM_IGNORED_BUILDS); this lets the
+# install finish. esbuild works without its script.
+strictDepBuilds: false

@@ -1,0 +1,9 @@
+# Configured by: booth config --no-tui --overwrite --variant base --port NEXT:31000 --expose +173:5173 --select nodejs+pnpm-install
+
+variant = "base"
+port = "NEXT:31000"
+
+run-args = [
+    "-v", "~/.npmrc:/etc/cb-home-seed/.npmrc:ro",
+    "--publish", "+173:5173"
+]
