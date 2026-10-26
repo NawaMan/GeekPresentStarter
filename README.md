@@ -7,6 +7,20 @@ GeekPresent itself comes in as a package (`@geekpresent/core`), downloaded from 
 this repo holds only **your** slides and settings. See the
 [showcase](https://nawaman.github.io/GeekPresent/) for what the framework can do.
 
+## Write it with your AI agent
+
+GeekPresent is built to be authored with a coding agent — Claude Code, Cursor, Codex, Copilot.
+Every slide is a small text file, and the framework ships a guide written for the agent, at
+`node_modules/@geekpresent/core/guide/`: how the site fits together, every component, the traps.
+This repo already points agents at it (`AGENTS.md`, and a Claude Code skill in `.claude/skills/`),
+so you can just ask:
+
+> *Make me a 6-slide deck about our Q3 migration — a title, the problem, a diagram of the old and
+> new architecture with arrows, a chart of the error rate, and a closing slide with a QR code.*
+
+Then open the dev server, look, and keep asking. Things the agent placed can be dragged into
+place in the browser (**ADJUST**), and **SAVE** writes your drag back into the source.
+
 ## Start
 
 1. **Use this template** (the green button above) to make your own repo.

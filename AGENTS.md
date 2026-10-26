@@ -36,12 +36,14 @@ use `pnpm dev` / `pnpm test` / `pnpm check` / `pnpm build`.
 
 ## Where the documentation is
 
-GeekPresent's full authoring manual — every component, ADJUST mode, the presenter console,
-diagrams, animation, testing — is its `AGENTS.md`:
-https://github.com/NawaMan/GeekPresent/blob/main/AGENTS.md (skip its parts about working ON the
-framework: the booth rules, worktrees, releases). The package's own setup notes are
-`node_modules/@geekpresent/core/README.md`. The sample decks under `src/routes/` there are the best
-examples (in that repo `$lib/…` is `@geekpresent/core/…` here).
+**Read `node_modules/@geekpresent/core/guide/README.md` before writing a slide.** It is
+GeekPresent's authoring guide for agents, shipped in the package so it matches the installed
+version: how a site fits together, the rules, and an index of every component, with one file
+per group of components next to it. When the guide and the component source
+(`node_modules/@geekpresent/core/src/…`) disagree, the source wins. Live examples of every
+component: https://nawaman.github.io/GeekPresent/references/title.html
+
+Claude Code picks this up as the `geekpresent` skill (`.claude/skills/geekpresent/`).
 
 ## Tests
 
