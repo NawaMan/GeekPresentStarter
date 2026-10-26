@@ -76,4 +76,4 @@ loudly if an upgrade changed the same lines.
 
 ## License
 
-MIT — see [LICENSE](LICENSE). GeekPresent's bundled fonts (`static/fonts/`) keep their own licences.
+MIT — see [LICENSE](LICENSE).
